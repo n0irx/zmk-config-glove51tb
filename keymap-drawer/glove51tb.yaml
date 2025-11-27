@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - \
+  - BACKSPACE
   - CAPSLOCK
   - A
   - S
@@ -26,31 +26,31 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - RETURN
   - LEFT SHIFT
   - Z
   - X
   - C
   - V
   - B
-  - DEFAULT
-  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - N
   - {t: M, type: held}
   - {t: ',', type: held}
   - .
   - /
-  - ENTER
+  - '`'
   - LEFT CONTROL
-  - LEFT ALT
   - {t: ▽, type: trans}
+  - LEFT ALT
   - Sft+Ctl+LEFT ALT
   - LEFT GUI
   - LEFT SHIFT
   - SPACE
   - {t: BACKSPACE, h: FUN}
   - SYM
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -78,7 +78,7 @@ layers:
   - UP ARROW
   - RIGHT ARROW
   - '-'
-  - '='
+  - RETURN
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -86,7 +86,7 @@ layers:
   - BT CLR
   - BT CLR ALL
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - '&mkp RCLK'
@@ -116,7 +116,7 @@ layers:
   - Sft+)
   - Sft+^
   - Sft+$
-  - \
+  - BACKSPACE
   - {t: ▽, type: trans}
   - Sft+!
   - Sft+@
@@ -130,10 +130,10 @@ layers:
   - ']'
   - Sft+~
   - +
-  - ''''
+  - RETURN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
   - ''''
   - Sft+"
   - '&ind_con'
@@ -144,7 +144,7 @@ layers:
   - Sft+}
   - /
   - Sft+*
-  - RET
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
