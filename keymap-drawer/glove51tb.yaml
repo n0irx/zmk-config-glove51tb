@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BSPC
+  - \
   - CAPSLOCK
   - A
   - S
@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - ;
-  - RETURN
+  - ''''
   - LEFT SHIFT
   - Z
   - X
@@ -40,121 +40,17 @@ layers:
   - ','
   - .
   - /
-  - RIGHT SHIFT
+  - ENTER
   - LEFT CONTROL
   - LEFT ALT
-  - SYM
-  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - Sft+Ctl+LEFT ALT
   - LEFT GUI
   - LEFT SHIFT
   - SPACE
-  - BACKSPACE
+  - {t: BACKSPACE, h: SYM}
   - FUN
   - \
-  - {t: ▽, type: trans}
-  NUM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  SYM:
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR ALL
-  - BT CLR
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&ind_con'
-  - '&ind_bat'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
   - {t: ▽, type: trans}
@@ -184,11 +80,11 @@ layers:
   - '-'
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - BT CLR
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - '`'
   - {t: ▽, type: trans}
@@ -206,6 +102,58 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '='
+  - Sft+(
+  - Sft+)
+  - Sft+^
+  - Sft+$
+  - \
+  - {t: ▽, type: trans}
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+&
+  - Sft+%
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '['
+  - ']'
+  - Sft+~
+  - +
+  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''''
+  - Sft+"
+  - '&ind_con'
+  - '&ind_bat'
+  - {t: ▽, type: trans}
+  - Sft+_
+  - Sft+{
+  - Sft+}
+  - /
+  - Sft+*
+  - RET
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
