@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - ESC
+  - TAB
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - TAB
+  - CAPSLOCK
   - A
   - S
   - D
@@ -42,13 +42,13 @@ layers:
   - /
   - RIGHT SHIFT
   - LEFT CONTROL
-  - SYM
-  - LEFT CONTROL
   - LEFT ALT
-  - LEFT GUI
+  - SYM
   - '&mkp LCLK'
+  - LEFT GUI
+  - LEFT SHIFT
   - SPACE
-  - SPACE
+  - BACKSPACE
   - FUN
   - \
   - {t: ▽, type: trans}
@@ -146,8 +146,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
