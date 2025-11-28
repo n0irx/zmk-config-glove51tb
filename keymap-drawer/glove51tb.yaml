@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: ESCAPE, h: Alt+Sft+LEFT CONTROL}
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - ;
   - RETURN
-  - Alt+Ctl+LEFT SHIFT
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -41,7 +41,7 @@ layers:
   - .
   - /
   - '`'
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
