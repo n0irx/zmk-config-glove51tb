@@ -27,7 +27,7 @@ layers:
   - L
   - ;
   - RETURN
-  - LEFT SHIFT
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -41,10 +41,10 @@ layers:
   - .
   - /
   - '`'
-  - LEFT CONTROL
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ALT
-  - Sft+Ctl+LEFT ALT
   - LEFT GUI
   - LEFT SHIFT
   - SPACE
