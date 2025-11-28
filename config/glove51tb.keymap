@@ -55,7 +55,12 @@
 
         tab_combo {
             bindings = <&kp TAB>;
-            key-positions = <2 3>;
+            key-positions = <14 15>;
+        };
+
+        delete_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <22 23>;
         };
     };
 
