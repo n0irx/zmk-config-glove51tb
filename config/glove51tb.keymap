@@ -88,10 +88,10 @@
         nav_layer {
             label = "FUN";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0      &kp BACKSPACE
-&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS         &kp RETURN
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &bt BT_CLR_ALL  &trans  &trans  &trans          &mkp LCLK       &mkp RCLK     &mkp MCLK        &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans  &trans        &trans        &trans        &trans        &mkp RCLK       &trans  &trans  &trans                                                         &trans            &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp BACKSPACE
+&trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &kp RETURN
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &bt BT_CLR_ALL  &trans  &trans  &trans          &mkp LCLK       &mkp RCLK     &mkp MCLK        &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &mkp RCLK       &trans  &trans  &trans                                                         &trans        &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -102,7 +102,7 @@
             bindings = <
 &trans  &trans        &trans      &trans         &trans        &trans                           &kp EQUAL      &kp LS(LPAR)  &kp LS(RPAR)  &kp LS(CARET)  &kp LS(DLLR)  &kp BACKSPACE
 &trans  &kp LS(EXCL)  &kp LS(AT)  &kp LS(POUND)  &kp LS(AMPS)  &kp LS(PRCNT)  &trans    &trans  &kp MINUS      &kp LBKT      &kp RBKT      &kp LS(TILDE)  &kp PLUS      &kp RETURN
-&trans  &trans        &kp PIPE    &kp SQT        &kp LS(DQT)   &ind_con       &ind_bat  &trans  &kp LS(UNDER)  &kp LS(LBRC)  &kp LS(RBRC)  &kp FSLH       &kp LS(STAR)  &trans
+&trans  &trans        &kp PIPE    &kp SQT        &kp LS(DQT)   &ind_con       &ind_bat  &trans  &kp LS(UNDER)  &kp LS(LBRC)  &kp LS(RBRC)  &kp FSLH       &kp ASTERISK  &trans
 &trans  &trans        &trans      &trans         &trans        &trans         &trans    &trans  &trans                                                    &trans        &trans
             >;
         };
