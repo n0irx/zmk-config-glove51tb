@@ -123,7 +123,7 @@ layers:
   - Sft+#
   - Sft+&
   - Sft+%
-  - {t: ▽, type: trans}
+  - '&ind_con'
   - {t: ▽, type: trans}
   - '-'
   - '['
@@ -136,7 +136,7 @@ layers:
   - '|'
   - ''''
   - Sft+"
-  - '&ind_con'
+  - {t: ▽, type: trans}
   - '&ind_bat'
   - {t: ▽, type: trans}
   - Sft+_
