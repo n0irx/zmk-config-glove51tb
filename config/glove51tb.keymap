@@ -49,7 +49,7 @@
         compatible = "zmk,combos";
 
         scroll {
-            bindings = <&mo 0>;
+            bindings = <&mo 5>;
             key-positions = <35 36>;
         };
     };
@@ -104,6 +104,26 @@
 &trans  &trans           &kp GRAVE    &kp APOS  &kp DOUBLE_QUOTES  &kp PIPE     &ind_con  &trans  &kp MINUS       &kp LBKT              &kp RBKT               &kp TILDE  &kp PLUS      &kp RETURN
 &trans  &trans           &trans       &trans    &trans             &trans       &ind_bat  &trans  &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp FSLH   &kp ASTERISK  &trans
 &trans  &trans           &trans       &trans    &trans             &trans       &trans    &trans  &trans                                                                  &trans        &trans
+            >;
+        };
+
+        mouse_layer {
+            label = "MOUSE";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+            >;
+        };
+
+        scroll_layer {
+            label = "SCROLL";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
     };
