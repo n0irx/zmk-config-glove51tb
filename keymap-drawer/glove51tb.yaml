@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - CAPSLOCK
+  - {t: ESCAPE, h: LEFT CONTROL}
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - ;
   - RETURN
-  - LEFT CONTROL
+  - Alt+Ctl+LEFT SHIFT
   - Z
   - X
   - C
