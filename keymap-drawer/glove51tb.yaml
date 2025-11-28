@@ -47,7 +47,7 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - LEFT SHIFT
-  - SPACE
+  - {t: SPACE, h: LEFT CONTROL}
   - {t: BACKSPACE, h: FUN}
   - SYM
   - {t: ▽, type: trans}
