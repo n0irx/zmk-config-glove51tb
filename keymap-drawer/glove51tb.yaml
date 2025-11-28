@@ -115,7 +115,7 @@ layers:
   - (
   - )
   - ^
-  - {t: ▽, type: trans}
+  - '&'
   - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
