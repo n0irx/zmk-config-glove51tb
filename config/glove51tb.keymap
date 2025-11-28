@@ -52,6 +52,11 @@
             bindings = <&mo 5>;
             key-positions = <35 36>;
         };
+
+        tab_combo {
+            bindings = <&kp TAB>;
+            key-positions = <2 3>;
+        };
     };
 
     behaviors {
