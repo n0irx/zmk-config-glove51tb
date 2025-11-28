@@ -77,7 +77,7 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - '-'
+  - {t: ▽, type: trans}
   - RETURN
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
@@ -91,8 +91,8 @@ layers:
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,7 +143,7 @@ layers:
   - Sft+{
   - Sft+}
   - /
-  - Sft+*
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
