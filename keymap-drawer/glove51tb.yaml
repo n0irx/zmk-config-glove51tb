@@ -106,42 +106,42 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - '='
-  - Sft+(
-  - Sft+)
-  - Sft+^
+  - (
+  - )
+  - ^
   - Sft+$
   - BACKSPACE
   - {t: ▽, type: trans}
-  - Sft+!
-  - Sft+@
-  - Sft+#
-  - Sft+&
-  - Sft+%
+  - {t: ▽, type: trans}
+  - '`'
+  - ''''
+  - '"'
+  - '|'
   - '&ind_con'
   - {t: ▽, type: trans}
   - '-'
   - '['
   - ']'
-  - Sft+~
+  - '~'
   - +
   - RETURN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '|'
-  - ''''
-  - Sft+"
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&ind_bat'
   - {t: ▽, type: trans}
-  - Sft+_
-  - Sft+{
-  - Sft+}
+  - _
+  - '{'
+  - '}'
   - /
   - '*'
   - {t: ▽, type: trans}
