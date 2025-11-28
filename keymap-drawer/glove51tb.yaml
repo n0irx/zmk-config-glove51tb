@@ -87,7 +87,7 @@ layers:
   - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - '&mkp LCLK'
   - '&mkp RCLK'
   - '&mkp MCLK'
