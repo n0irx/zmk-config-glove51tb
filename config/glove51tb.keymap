@@ -90,15 +90,26 @@
             tap-ms = <20>;
         };
 
-        ht_ctrl: ht_ctrl {
+        ht_balance: ht_balance {
             compatible = "zmk,behavior-hold-tap";
-            label = "HT_CTRL";
+            label = "HT_BALANCE";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
             flavor = "balanced";
             tapping-term-ms = <200>;
             hold-trigger-key-positions = <1 2 3 4 5 13 14 15 16 17 18 27 28 29 30 31 32 43 41 42 6 7 8 9 10 20 21 22 23 24 34 35 36 37 38 49>;
+        };
+
+        mt_balance: mt_balance {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MT_BALANCE";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            hold-trigger-key-positions = <1 2 3 4 5 6 7 8 9 13 14 15 16 17 18 19 20 21 22 23 27 28 29 30 31 32 33 34 35 36 37 41 42 43 10 24 38 49 39 50 25 11 40 26 12 0>;
+            flavor = "balanced";
         };
     };
 
@@ -108,10 +119,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp TAB                          &kp Q   &kp W   &kp E         &kp R         &kp T                                                &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
-&mt LA(LS(LEFT_CONTROL)) ESCAPE  &kp A   &kp S   &kp D         &kp F         &kp G           &trans                       &trans  &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT                   &kp Z   &kp X   &kp C         &kp V         &kp B           &trans                       &trans  &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RETURN
-&trans                           &trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &ht_ctrl LEFT_CONTROL SPACE  &mo 1   &mo 2                             &trans    &trans
+&kp TAB                          &kp Q   &kp W   &kp E         &kp R         &kp T                                                                    &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
+&mt LA(LS(LEFT_CONTROL)) ESCAPE  &kp A   &kp S   &kp D         &kp F         &kp G           &trans                          &trans                   &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT                   &kp Z   &kp X   &kp C         &kp V         &kp B           &trans                          &trans                   &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RETURN
+&trans                           &trans  &trans  &kp LEFT_ALT  &kp LEFT_GUI  &kp LEFT_SHIFT  &ht_balance LEFT_CONTROL SPACE  &mt_balance 1 BACKSPACE  &mo 2                             &trans    &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
