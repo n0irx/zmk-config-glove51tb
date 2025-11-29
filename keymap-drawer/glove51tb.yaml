@@ -48,7 +48,7 @@ layers:
   - LEFT GUI
   - LEFT SHIFT
   - {t: SPACE, h: LEFT CONTROL}
-  - FUN
+  - {t: BACKSPACE, h: FUN}
   - SYM
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
