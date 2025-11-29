@@ -26,7 +26,7 @@ layers:
   - K
   - L
   - ;
-  - ''''
+  - RETURN
   - LEFT SHIFT
   - Z
   - X
@@ -39,8 +39,8 @@ layers:
   - M
   - ','
   - .
-  - /
-  - RETURN
+  - '`'
+  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -48,8 +48,8 @@ layers:
   - LEFT GUI
   - LEFT SHIFT
   - {t: SPACE, h: LEFT CONTROL}
-  - {t: BACKSPACE, h: FUN}
-  - SYM
+  - {t: BACKSPACE, h: SYM}
+  - MOUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
@@ -78,7 +78,7 @@ layers:
   - UP ARROW
   - RIGHT ARROW
   - '-'
-  - {t: ▽, type: trans}
+  - RETURN
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -92,7 +92,7 @@ layers:
   - '&mkp MCLK'
   - '&mkp RCLK'
   - +
-  - RET
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -115,14 +115,14 @@ layers:
   - (
   - )
   - ^
-  - '&'
+  - $
   - BACKSPACE
   - {t: ▽, type: trans}
   - '@'
   - '4'
   - '5'
   - '6'
-  - $
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -130,13 +130,13 @@ layers:
   - ']'
   - '~'
   - +
-  - '|'
+  - RET
   - {t: ▽, type: trans}
   - '#'
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - '"'
   - '&ind_bat'
   - '&ind_con'
   - _
@@ -144,7 +144,7 @@ layers:
   - '}'
   - /
   - '*'
-  - RET
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -152,8 +152,8 @@ layers:
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
