@@ -48,8 +48,8 @@ layers:
   - LEFT GUI
   - LEFT SHIFT
   - {t: SPACE, h: LEFT CONTROL}
-  - {t: BACKSPACE, h: SYM}
-  - MOUSE
+  - {t: BACKSPACE, h: FUN}
+  - SYM
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   FUN:
@@ -100,7 +100,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -152,8 +152,8 @@ layers:
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   MOUSE:
@@ -205,7 +205,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SCROLL:
