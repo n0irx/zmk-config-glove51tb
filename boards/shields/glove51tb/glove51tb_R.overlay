@@ -20,11 +20,24 @@
 };
 
 / {
+    input_processors {
+        zip_trackball_scaler: zip_trackball_scaler {
+            compatible = "zmk,input-processor-scaler";
+            #input-processor-cells = <2>;
+            type = <INPUT_EV_REL>;
+            codes = <INPUT_REL_X>, <INPUT_REL_Y>;
+            track-remainders;
+        };
+    };
+
     trackball_listener {
         status = "okay";
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_temp_layer 4 700>;            // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
+        input-processors = <
+            &zip_trackball_scaler 1 2                          // Scale Y-axis (vertical) by 2x for better sensitivity
+            &zip_temp_layer 4 700                              // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
+        >;
 
         scroller {
             layers = <5>;                                      // スクロールレイヤー
