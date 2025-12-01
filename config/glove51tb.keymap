@@ -48,7 +48,7 @@
     combos {
         compatible = "zmk,combos";
 
-        scroll {
+        mouse_layer_combo {
             bindings = <&mo 3>;
             key-positions = <35 36>;
         };
@@ -147,7 +147,7 @@
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp BACKSPACE
 &trans  &trans        &trans        &trans        &trans        &trans          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp MINUS     &kp RETURN
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &bt BT_CLR_ALL  &trans  &trans  &trans          &mkp LCLK       &mkp MCLK     &mkp RCLK        &kp PLUS      &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &bt BT_CLR_ALL  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp PLUS      &trans
 &trans  &trans        &trans        &trans        &trans        &kp LEFT_SHIFT  &trans  &trans  &trans                                                         &trans        &trans
             >;
 
@@ -167,10 +167,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                        &trans     &trans  &trans  &trans          &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &msc SCRL_UP    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans     &trans     &trans  &trans  &msc SCRL_DOWN  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK                                  &trans  &trans
+&trans  &trans  &trans          &mmv MOVE_UP    &trans           &trans                        &trans     &trans  &trans  &trans          &trans  &trans
+&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans     &trans     &trans     &trans  &trans  &msc SCRL_UP    &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &trans     &trans     &trans     &trans  &trans  &msc SCRL_DOWN  &trans  &trans
+&trans  &trans  &trans          &trans          &trans           &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK                                  &trans  &trans
             >;
         };
 
