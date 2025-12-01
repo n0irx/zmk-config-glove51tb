@@ -77,13 +77,13 @@
 
         hyper_combo {
             bindings = <&kp LS(LA(LEFT_CONTROL))>;
-            key-positions = <15 16 14>;
+            key-positions = <16 14>;
             layers = <0>;
         };
 
         hyper_combo2 {
             bindings = <&kp LS(LA(LEFT_CONTROL))>;
-            key-positions = <21 22 23>;
+            key-positions = <21 23>;
             layers = <0>;
         };
     };
@@ -133,10 +133,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp TAB                  &kp Q   &kp W   &kp E         &kp R         &kp T                                                                            &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
-&mt LEFT_CONTROL ESCAPE  &kp A   &kp S   &kp D         &kp F         &kp G           &trans                                  &trans                   &kp H  &kp J  &kp K      &kp L    &kp SEMI   &kp RETURN
-&kp LEFT_SHIFT           &kp Z   &kp X   &kp C         &kp V         &kp B           &trans                                  &trans                   &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp AMPERSAND
-&trans                   &trans  &trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &ht_balance LS(LA(LEFT_CONTROL)) SPACE  &mt_balance 1 BACKSPACE  &mo 2                             &trans     &trans
+&kp TAB                  &kp Q   &kp W   &kp E   &kp R         &kp T                                                                            &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
+&mt LEFT_CONTROL ESCAPE  &kp A   &kp S   &kp D   &kp F         &kp G           &trans                                  &trans                   &kp H  &kp J  &kp K      &kp L    &kp SEMI   &kp RETURN
+&kp LEFT_ALT             &kp Z   &kp X   &kp C   &kp V         &kp B           &trans                                  &trans                   &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp AMPERSAND
+&kp LEFT_SHIFT           &trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_SHIFT  &ht_balance LS(LA(LEFT_CONTROL)) SPACE  &mt_balance 1 BACKSPACE  &mo 2                             &trans     &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
