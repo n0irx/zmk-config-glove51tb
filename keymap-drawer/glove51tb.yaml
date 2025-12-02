@@ -107,9 +107,9 @@ layers:
   SYM:
   - {t: ▽, type: trans}
   - '!'
-  - '7'
-  - '8'
-  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '%'
   - '='
   - (
@@ -119,10 +119,10 @@ layers:
   - BACKSPACE
   - {t: ▽, type: trans}
   - '@'
-  - '4'
-  - '5'
-  - '6'
+  - '`'
+  - '"'
   - ''''
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -133,10 +133,10 @@ layers:
   - RET
   - {t: ▽, type: trans}
   - '#'
-  - '1'
-  - '2'
-  - '3'
-  - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&ind_bat'
   - '&ind_con'
   - _
