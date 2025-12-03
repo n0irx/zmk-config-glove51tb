@@ -116,7 +116,7 @@ layers:
   - '}'
   - $
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '!'
   - '*'
@@ -129,8 +129,8 @@ layers:
   - (
   - )
   - '-'
-  - {t: ▽, type: trans}
-  - RET
+  - BACKSPACE
+  - ENTER
   - {t: ▽, type: trans}
   - '~'
   - +
