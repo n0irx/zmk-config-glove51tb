@@ -106,7 +106,7 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
-  - INT YEN
+  - '@'
   - <
   - '>'
   - \
@@ -139,10 +139,10 @@ layers:
   - '%'
   - '&ind_bat'
   - '&ind_con'
-  - '@'
+  - '`'
   - ':'
   - ;
-  - '`'
+  - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
