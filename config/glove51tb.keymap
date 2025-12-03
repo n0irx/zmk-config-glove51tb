@@ -68,6 +68,11 @@
             key-positions = <16 14 15>;
             layers = <0>;
         };
+
+        shifttab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <3 4>;
+        };
     };
 
     behaviors {
