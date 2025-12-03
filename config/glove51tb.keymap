@@ -159,7 +159,7 @@
             bindings = <
 &trans  &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                            &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &trans  &kp BACKSPACE
 &trans  &kp EXCL   &kp ASTRK      &kp SLASH         &kp EQUAL          &kp AMPS        &trans    &trans    &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &kp RET
-&trans  &kp GRAVE  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT     &ind_bat  &ind_con  &kp AT     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOT        &trans  &trans
+&trans  &kp TILDE  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT     &ind_bat  &ind_con  &kp AT     &kp COLON             &kp COMMA              &kp DOT        &trans  &trans
 &trans  &trans     &trans         &trans            &trans             &kp LEFT_SHIFT  &trans    &trans    &trans                                                                 &trans  &trans
             >;
         };
