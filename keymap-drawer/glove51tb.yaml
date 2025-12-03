@@ -25,7 +25,7 @@ layers:
   - J
   - K
   - L
-  - ;
+  - ''''
   - RETURN
   - LEFT SHIFT
   - {t: Z, h: LEFT ALT}
@@ -106,10 +106,10 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
-  - '`'
+  - INT YEN
   - <
   - '>'
-  - '-'
+  - \
   - '|'
   - ^
   - '{'
@@ -128,7 +128,7 @@ layers:
   - '#'
   - (
   - )
-  - ;
+  - '-'
   - {t: ▽, type: trans}
   - RET
   - {t: ▽, type: trans}
@@ -141,8 +141,8 @@ layers:
   - '&ind_con'
   - '@'
   - ':'
-  - ','
-  - .
+  - ;
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
