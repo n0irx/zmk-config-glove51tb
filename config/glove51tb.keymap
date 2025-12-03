@@ -133,10 +133,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&kp TAB                  &kp Q   &kp W   &kp E   &kp R         &kp T                                                                            &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
-&mt LEFT_CONTROL ESCAPE  &kp A   &kp S   &kp D   &kp F         &kp G           &trans                                  &trans                   &kp H  &kp J  &kp K      &kp L    &kp SEMI   &kp RETURN
-&kp LEFT_ALT             &kp Z   &kp X   &kp C   &kp V         &kp B           &trans                                  &trans                   &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp AMPERSAND
-&kp LEFT_SHIFT           &trans  &trans  &trans  &kp LEFT_GUI  &kp LEFT_SHIFT  &ht_balance LS(LA(LEFT_CONTROL)) SPACE  &mt_balance 1 BACKSPACE  &mo 2                             &trans     &trans
+&kp TAB                  &kp Q                   &kp W   &kp E   &kp R         &kp T                                                           &kp Y  &kp U  &kp I      &kp O    &kp P      &kp BACKSPACE
+&mt LEFT_CONTROL ESCAPE  &kp A                   &kp S   &kp D   &kp F         &kp G           &trans                                  &trans  &kp H  &kp J  &kp K      &kp L    &kp SEMI   &kp RETURN
+&kp LEFT_SHIFT           &ht_balance LEFT_ALT Z  &kp X   &kp C   &kp V         &kp B           &trans                                  &trans  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp AMPERSAND
+&trans                   &trans                  &trans  &trans  &kp LEFT_GUI  &kp LEFT_SHIFT  &ht_balance LS(LA(LEFT_CONTROL)) SPACE  &mo 1   &mo 2                             &trans     &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -157,10 +157,10 @@
         sym_layer {
             label = "SYM";
             bindings = <
-&trans  &kp EXCLAMATION  &trans     &trans             &trans            &kp PERCENT                         &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET  &kp DOLLAR  &kp BACKSPACE
-&trans  &kp AT           &kp GRAVE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp PIPE        &trans    &trans    &kp MINUS       &kp LBKT              &kp RBKT               &kp PLUS   &trans      &kp RET
-&trans  &kp HASH         &trans     &trans             &trans            &trans          &ind_bat  &ind_con  &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE  &trans      &trans
-&trans  &trans           &trans     &kp NUMBER_0       &trans            &kp LEFT_SHIFT  &trans    &trans    &trans                                                                  &trans      &trans
+&trans  &kp GRAVE  &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS          &kp PIPE                            &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &trans  &kp BACKSPACE
+&trans  &kp EXCL   &kp ASTRK      &kp SLASH         &kp EQUAL          &kp AMPS        &trans    &trans    &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &trans  &kp RET
+&trans  &kp GRAVE  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT     &ind_bat  &ind_con  &kp AT     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOT        &trans  &trans
+&trans  &trans     &trans         &trans            &trans             &kp LEFT_SHIFT  &trans    &trans    &trans                                                                 &trans  &trans
             >;
         };
 
