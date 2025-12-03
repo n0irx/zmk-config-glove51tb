@@ -132,7 +132,7 @@ layers:
   - {t: ▽, type: trans}
   - RET
   - {t: ▽, type: trans}
-  - '`'
+  - '~'
   - +
   - '['
   - ']'
@@ -140,8 +140,8 @@ layers:
   - '&ind_bat'
   - '&ind_con'
   - '@'
-  - '{'
-  - '}'
+  - ':'
+  - ','
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
