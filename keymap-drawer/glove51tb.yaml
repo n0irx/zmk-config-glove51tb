@@ -27,8 +27,8 @@ layers:
   - L
   - ;
   - RETURN
-  - LEFT ALT
-  - Z
+  - LEFT SHIFT
+  - {t: Z, h: LEFT ALT}
   - X
   - C
   - V
@@ -41,14 +41,14 @@ layers:
   - .
   - /
   - '&'
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT GUI
   - LEFT SHIFT
   - {t: SPACE, h: Sft+Alt+LEFT CONTROL}
-  - {t: BACKSPACE, h: FUN}
+  - FUN
   - SYM
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -106,49 +106,49 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
-  - '!'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '%'
-  - '='
-  - (
-  - )
+  - '`'
+  - <
+  - '>'
+  - '-'
+  - '|'
   - ^
+  - '{'
+  - '}'
   - $
+  - {t: ▽, type: trans}
   - BACKSPACE
   - {t: ▽, type: trans}
-  - '@'
-  - '`'
-  - '"'
-  - ''''
-  - '|'
+  - '!'
+  - '*'
+  - /
+  - '='
+  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '['
-  - ']'
-  - +
+  - '#'
+  - (
+  - )
+  - ;
   - {t: ▽, type: trans}
   - RET
   - {t: ▽, type: trans}
-  - '#'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - +
+  - '['
+  - ']'
+  - '%'
   - '&ind_bat'
   - '&ind_con'
-  - _
+  - '@'
   - '{'
   - '}'
-  - '`'
+  - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - {t: ▽, type: trans}
