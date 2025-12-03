@@ -27,8 +27,8 @@ layers:
   - L
   - ''''
   - RETURN
-  - LEFT SHIFT
-  - {t: Z, h: LEFT ALT}
+  - LEFT ALT
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -41,7 +41,7 @@ layers:
   - .
   - /
   - '&'
-  - {t: ▽, type: trans}
+  - INT HENKAN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
