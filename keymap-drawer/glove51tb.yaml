@@ -263,11 +263,7 @@ layers:
 combos:
 - p: [35, 36]
   k: MOUSE
-- p: [3, 2]
-  k: TAB
-- p: [9, 8]
-  k: BACKSPACE
-- p: [16, 14, 15]
+- p: [21, 22, 23]
   k: Meh+TAB
   l: [DEFAULT]
 - p: [3, 4]
