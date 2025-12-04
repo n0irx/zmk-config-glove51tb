@@ -25,8 +25,8 @@ layers:
   - J
   - K
   - L
-  - ;
   - ''''
+  - RET
   - LEFT CONTROL
   - {t: Z, h: LEFT SHIFT}
   - X
@@ -40,7 +40,7 @@ layers:
   - ','
   - .
   - /
-  - RET
+  - ;
   - INT HENKAN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,8 +129,8 @@ layers:
   - (
   - )
   - '-'
-  - BACKSPACE
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '*'
   - +
