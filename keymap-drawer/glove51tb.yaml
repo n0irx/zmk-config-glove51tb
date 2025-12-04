@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BACKSPACE
-  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: ESCAPE, h: LEFT ALT}
   - A
   - S
   - D
@@ -27,7 +27,7 @@ layers:
   - L
   - ;
   - ''''
-  - LEFT ALT
+  - LEFT CONTROL
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
