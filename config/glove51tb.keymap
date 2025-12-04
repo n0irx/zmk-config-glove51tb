@@ -53,19 +53,9 @@
             key-positions = <35 36>;
         };
 
-        tab_combo {
-            bindings = <&kp TAB>;
-            key-positions = <3 2>;
-        };
-
-        delete_combo {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
-        };
-
-        hyper_combo {
+        hyper_tab_combo {
             bindings = <&kp LS(LA(LC(TAB)))>;
-            key-positions = <16 14 15>;
+            key-positions = <21 22 23>;
             layers = <0>;
         };
 
