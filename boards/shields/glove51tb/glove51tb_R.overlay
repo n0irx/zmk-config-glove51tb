@@ -35,7 +35,7 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
         input-processors = <
-            &zip_trackball_scaler 1 2                          // Scale Y-axis (vertical) by 2x for better sensitivity
+            &zip_trackball_scaler 2 1                          // Scale X-axis (vertical after swap-xy) by 2x for better sensitivity
             &zip_temp_layer 4 700                              // オートマウスレイヤー（AML）: トラックボール動作時に自動的にレイヤー4を有効化（700ms）
         >;
 
