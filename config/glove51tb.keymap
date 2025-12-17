@@ -61,7 +61,7 @@
 
         shifttab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <3 4>;
+            key-positions = <14 16>;
         };
 
         Meh {
