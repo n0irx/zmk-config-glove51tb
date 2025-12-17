@@ -266,7 +266,7 @@ combos:
 - p: [21, 22, 23]
   k: Meh+TAB
   l: [DEFAULT]
-- p: [3, 4]
+- p: [14, 16]
   k: Sft+TAB
 - p: [45, 48]
   k: Sft+Alt+LEFT CONTROL
