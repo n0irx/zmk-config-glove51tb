@@ -28,7 +28,7 @@ layers:
   - ''''
   - RET
   - {t: ▽, type: trans}
-  - {t: Z, h: LEFT SHIFT}
+  - {t: Z, h: Alt+Sft+LEFT CONTROL}
   - {t: X, h: LEFT ALT}
   - C
   - V
@@ -45,10 +45,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: TAB, h: LEFT GUI}
-  - '&Hyper'
+  - LEFT GUI
+  - LEFT SHIFT
   - {t: SPACE, h: LEFT ALT}
-  - FUN
+  - {t: TAB, h: FUN}
   - {t: BACKSPACE, h: SYM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
