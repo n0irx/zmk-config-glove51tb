@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
-  - TAB
+  - {t: ▽, type: trans}
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ESCAPE, h: LEFT ALT}
   - A
   - S
@@ -27,7 +27,7 @@ layers:
   - L
   - ''''
   - RET
-  - LEFT CONTROL
+  - {t: ▽, type: trans}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -40,8 +40,8 @@ layers:
   - ','
   - .
   - /
-  - ;
-  - INT HENKAN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -268,3 +268,5 @@ combos:
   l: [DEFAULT]
 - p: [3, 4]
   k: Sft+TAB
+- p: [45, 48]
+  k: Sft+Alt+LEFT CONTROL
