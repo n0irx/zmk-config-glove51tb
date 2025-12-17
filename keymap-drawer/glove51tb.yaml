@@ -29,7 +29,7 @@ layers:
   - RET
   - {t: ▽, type: trans}
   - {t: Z, h: LEFT SHIFT}
-  - X
+  - {t: X, h: LEFT ALT}
   - C
   - V
   - B
