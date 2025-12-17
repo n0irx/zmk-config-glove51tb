@@ -46,7 +46,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: TAB, h: LEFT GUI}
-  - LEFT SHIFT
+  - '&Hyper'
   - {t: SPACE, h: LEFT ALT}
   - FUN
   - {t: BACKSPACE, h: SYM}
