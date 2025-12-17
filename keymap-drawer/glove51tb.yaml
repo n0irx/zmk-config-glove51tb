@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: ▽, type: trans}
-  - {t: ESCAPE, h: LEFT ALT}
+  - {t: ESCAPE, h: LEFT CONTROL}
   - A
   - S
   - D
@@ -47,7 +47,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: TAB, h: LEFT GUI}
   - LEFT SHIFT
-  - {t: SPACE, h: LEFT CONTROL}
+  - {t: SPACE, h: LEFT ALT}
   - FUN
   - {t: BACKSPACE, h: SYM}
   - {t: ▽, type: trans}
