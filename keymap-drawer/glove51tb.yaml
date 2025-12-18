@@ -25,11 +25,11 @@ layers:
   - J
   - K
   - L
-  - ''''
+  - {t: '''', h: LEFT SHIFT}
   - RET
   - {t: ▽, type: trans}
   - {t: Z, h: LEFT CONTROL}
-  - {t: X, h: LEFT SHIFT}
+  - X
   - C
   - V
   - B
