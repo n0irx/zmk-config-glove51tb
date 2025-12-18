@@ -2,7 +2,7 @@ layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
   - {t: ▽, type: trans}
-  - Q
+  - {t: Q, h: LEFT ALT}
   - W
   - E
   - R
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: ▽, type: trans}
-  - {t: ESCAPE, h: LEFT CONTROL}
+  - {t: TAB, h: LEFT ALT}
   - A
   - S
   - D
@@ -28,7 +28,7 @@ layers:
   - ''''
   - RET
   - {t: ▽, type: trans}
-  - {t: Z, h: Alt+Sft+LEFT CONTROL}
+  - {t: Z, h: LEFT CONTROL}
   - {t: X, h: LEFT SHIFT}
   - C
   - V
@@ -47,8 +47,8 @@ layers:
   - {t: ▽, type: trans}
   - LEFT GUI
   - LEFT SHIFT
-  - {t: SPACE, h: LEFT ALT}
-  - {t: TAB, h: FUN}
+  - {t: SPACE, h: Ctl+Sft+LEFT ALT}
+  - {t: ESCAPE, h: FUN}
   - {t: BACKSPACE, h: SYM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
