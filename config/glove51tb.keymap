@@ -128,7 +128,7 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&trans            &ht_balance LEFT_ALT Q      &kp W                     &kp E   &kp R         &kp T                                                                     &kp Y                    &kp U  &kp I      &kp O    &kp P             &trans
+&trans            &kp Q                       &kp W                     &kp E   &kp R         &kp T                                                                     &kp Y                    &kp U  &kp I      &kp O    &kp P             &trans
 &mt LEFT_ALT TAB  &kp A                       &kp S                     &kp D   &kp F         &kp G           &trans                              &trans                &kp H                    &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &kp RET
 &trans            &ht_balance LEFT_CONTROL Z  &ht_balance LEFT_SHIFT X  &kp C   &kp V         &kp B           &trans                              &trans                &kp N                    &kp M  &kp COMMA  &kp DOT  &kp SLASH         &trans
 &trans            &trans                      &trans                    &trans  &kp LEFT_GUI  &kp LEFT_SHIFT  &ht_balance LC(LS(LEFT_ALT)) SPACE  &mt_balance 1 ESCAPE  &mt_balance 2 BACKSPACE                             &trans            &trans
