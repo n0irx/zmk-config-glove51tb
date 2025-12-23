@@ -45,7 +45,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT GUI
+  - '&powercmd'
   - LEFT SHIFT
   - {t: SPACE, h: Ctl+Sft+LEFT ALT}
   - {t: ESCAPE, h: FUN}
