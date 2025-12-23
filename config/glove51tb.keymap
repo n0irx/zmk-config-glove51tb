@@ -140,10 +140,10 @@
         nav_layer {
             label = "FUN";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &trans
-&trans  &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS      &trans          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans        &kp BACKSPACE
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &bt BT_CLR_ALL  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &kp LEFT_SHIFT  &trans  &trans  &trans                                                         &trans        &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6    &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0   &trans
+&trans  &kp SLASH     &kp ASTERISK  &kp MINUS     &kp PLUS      &trans          &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp BACKSPACE  &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR    &bt BT_CLR_ALL  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans         &trans
+&trans  &trans        &trans        &trans        &trans        &kp LEFT_SHIFT  &trans  &trans  &trans                                                         &trans         &trans
             >;
 
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -152,10 +152,10 @@
         sym_layer {
             label = "SYM";
             bindings = <
-&trans  &kp AT        &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &kp PIPE                            &kp CARET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR   &trans  &trans
-&trans  &kp EXCL      &kp UNDER      &kp MINUS         &kp EQUAL          &kp AMPS        &trans    &trans    &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE    &trans  &kp BACKSPACE
-&trans  &kp ASTERISK  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT     &ind_bat  &ind_con  &kp GRAVE  &kp COLON             &kp SEMICOLON          &kp INT_YEN  &trans  &trans
-&trans  &trans        &trans         &trans            &trans             &kp LEFT_SHIFT  &trans    &trans    &trans                                                               &trans  &trans
+&trans  &kp AT        &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &kp PIPE                            &kp GRAVE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE   &kp DELETE    &trans
+&trans  &kp EXCL      &kp UNDER      &kp MINUS         &kp EQUAL          &kp AMPS        &trans    &trans    &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH   &kp QUESTION  &trans
+&trans  &kp ASTERISK  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT     &ind_bat  &ind_con  &kp CARET  &kp COLON             &kp SEMICOLON          &kp DOLLAR  &trans        &trans
+&trans  &trans        &trans         &trans            &trans             &kp LEFT_SHIFT  &trans    &trans    &trans                                                              &trans        &trans
             >;
         };
 
