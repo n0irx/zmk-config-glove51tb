@@ -77,8 +77,8 @@ layers:
   - DOWN ARROW
   - UP ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
   - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -111,11 +111,11 @@ layers:
   - '>'
   - \
   - '|'
-  - ^
+  - '`'
   - '{'
   - '}'
-  - $
-  - {t: ▽, type: trans}
+  - '~'
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '!'
@@ -128,9 +128,9 @@ layers:
   - '#'
   - (
   - )
-  - '~'
+  - /
+  - '?'
   - {t: ▽, type: trans}
-  - BACKSPACE
   - {t: ▽, type: trans}
   - '*'
   - +
@@ -139,10 +139,10 @@ layers:
   - '%'
   - '&ind_bat'
   - '&ind_con'
-  - '`'
+  - ^
   - ':'
   - ;
-  - INT YEN
+  - $
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
