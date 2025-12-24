@@ -49,7 +49,7 @@
         compatible = "zmk,combos";
 
         mouse_layer_combo {
-            bindings = <&mo 3>;
+            bindings = <&mo 4>;
             key-positions = <35 36>;
         };
 
@@ -125,7 +125,30 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SUPERCMD";
             #binding-cells = <0>;
-            bindings = <&ht_balance LEFT_GUI SPACE>, <&kp LS(LEFT_GUI)>;
+            bindings = <&kp LEFT_GUI>, <&mo 3>;
+        };
+    };
+
+    macros {
+        LockScreen: LockScreen {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LA(Q))>;
+            label = "LOCKSCREEN";
+        };
+
+        UnnewTab: UnnewTab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(T))>;
+            label = "UNNEWTAB";
+        };
+
+        StylePaste: StylePaste {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(V))>;
+            label = "STYLEPASTE";
         };
     };
 
@@ -135,13 +158,23 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&trans            &kp Q                       &kp W   &kp E   &kp R   &kp T                                            &kp Y                    &kp U  &kp I      &kp O    &kp P             &trans
-&mt LEFT_ALT TAB  &kp A                       &kp S   &kp D   &kp F   &kp G           &trans     &trans                &kp H                    &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &trans
-&trans            &ht_balance LEFT_CONTROL Z  &kp X   &kp C   &kp V   &kp B           &trans     &trans                &kp N                    &kp M  &kp COMMA  &kp DOT  &kp ENTER         &trans
-&trans            &trans                      &trans  &trans  &trans  &kp LEFT_SHIFT  &SuperCMD  &mt_balance 1 ESCAPE  &mt_balance 2 BACKSPACE                             &trans            &trans
+&trans            &kp Q                       &kp W   &kp E   &kp R   &kp T                                                  &kp Y                    &kp U  &kp I      &kp O    &kp P             &trans
+&mt LEFT_ALT TAB  &kp A                       &kp S   &kp D   &kp F   &kp G      &trans                &trans                &kp H                    &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &trans
+&trans            &ht_balance LEFT_CONTROL Z  &kp X   &kp C   &kp V   &kp B      &trans                &trans                &kp N                    &kp M  &kp COMMA  &kp DOT  &kp ENTER         &trans
+&trans            &trans                      &trans  &trans  &trans  &SuperCMD  &mt LEFT_SHIFT SPACE  &mt_balance 2 ESCAPE  &mt_balance 1 BACKSPACE                             &trans            &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
+        };
+
+        sym_layer {
+            label = "SYM";
+            bindings = <
+&trans  &kp TAB       &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &kp PIPE                            &kp GRAVE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE   &kp DELETE    &trans
+&trans  &kp EXCL      &kp UNDER      &kp MINUS         &kp EQUAL          &kp AMPS        &trans    &trans    &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH   &kp QUESTION  &trans
+&trans  &kp ASTERISK  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT     &ind_bat  &ind_con  &kp CARET  &kp COLON             &kp SEMICOLON          &kp DOLLAR  &kp AT        &trans
+&trans  &trans        &trans         &trans            &trans             &kp LEFT_SHIFT  &trans    &trans    &trans                                                              &trans        &trans
+            >;
         };
 
         nav_layer {
@@ -156,13 +189,13 @@
             sensor-bindings = <&sensor_rotate_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
-        sym_layer {
-            label = "SYM";
+        sys_layer {
+            label = "SCROLL";
             bindings = <
-&trans  &kp TAB       &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &kp PIPE                            &kp GRAVE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp TILDE   &kp DELETE    &trans
-&trans  &kp EXCL      &kp UNDER      &kp MINUS         &kp EQUAL          &kp AMPS        &trans    &trans    &kp HASH   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SLASH   &kp QUESTION  &trans
-&trans  &kp ASTERISK  &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PERCENT     &ind_bat  &ind_con  &kp CARET  &kp COLON             &kp SEMICOLON          &kp DOLLAR  &kp AT        &trans
-&trans  &trans        &trans         &trans            &trans             &kp LEFT_SHIFT  &trans    &trans    &trans                                                              &trans        &trans
+&trans  &LockScreen  &trans  &trans  &trans       &UnnewTab                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &trans       &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &StylePaste  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &trans       &trans     &trans  &trans  &trans                          &trans  &trans
             >;
         };
 
@@ -173,16 +206,6 @@
 &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans     &trans     &trans     &trans  &trans  &msc SCRL_UP    &trans  &trans
 &trans  &trans  &trans          &trans          &trans           &trans  &trans     &trans     &trans     &trans  &trans  &msc SCRL_DOWN  &trans  &trans
 &trans  &trans  &trans          &trans          &trans           &trans  &mkp MCLK  &mkp LCLK  &mkp RCLK                                  &trans  &trans
-            >;
-        };
-
-        scroll_layer {
-            label = "SCROLL";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
     };
