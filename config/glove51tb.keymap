@@ -55,7 +55,7 @@
 
         hyper_tab_combo {
             bindings = <&kp LS(LA(LC(TAB)))>;
-            key-positions = <35 37 36>;
+            key-positions = <36 37 35>;
             layers = <0>;
         };
 
@@ -66,7 +66,7 @@
 
         Meh {
             bindings = <&kp LS(LA(LEFT_CONTROL))>;
-            key-positions = <45 48>;
+            key-positions = <46 47>;
         };
 
         hyper {
@@ -121,11 +121,11 @@
             bindings = <&kp LEFT_SHIFT>, <&kp LS(LA(LG(LEFT_CONTROL)))>;
         };
 
-        powercmd: powercmd {
+        SuperCMD: SuperCMD {
             compatible = "zmk,behavior-tap-dance";
-            label = "POWERCMD";
+            label = "SUPERCMD";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_GUI>, <&kp LS(LEFT_GUI)>;
+            bindings = <&ht_balance LEFT_GUI SPACE>, <&kp LS(LEFT_GUI)>;
         };
     };
 
@@ -135,10 +135,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&trans            &kp Q                       &kp W   &kp E   &kp R      &kp T                                                                     &kp Y                    &kp U  &kp I      &kp O    &kp P             &trans
-&mt LEFT_ALT TAB  &kp A                       &kp S   &kp D   &kp F      &kp G           &trans                              &trans                &kp H                    &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &trans
-&trans            &ht_balance LEFT_CONTROL Z  &kp X   &kp C   &kp V      &kp B           &trans                              &trans                &kp N                    &kp M  &kp COMMA  &kp DOT  &kp ENTER         &trans
-&trans            &trans                      &trans  &trans  &powercmd  &kp LEFT_SHIFT  &ht_balance LC(LS(LEFT_ALT)) SPACE  &mt_balance 1 ESCAPE  &mt_balance 2 BACKSPACE                             &trans            &trans
+&trans            &kp Q                       &kp W   &kp E   &kp R   &kp T                                            &kp Y                    &kp U  &kp I      &kp O    &kp P             &trans
+&mt LEFT_ALT TAB  &kp A                       &kp S   &kp D   &kp F   &kp G           &trans     &trans                &kp H                    &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &trans
+&trans            &ht_balance LEFT_CONTROL Z  &kp X   &kp C   &kp V   &kp B           &trans     &trans                &kp N                    &kp M  &kp COMMA  &kp DOT  &kp ENTER         &trans
+&trans            &trans                      &trans  &trans  &trans  &kp LEFT_SHIFT  &SuperCMD  &mt_balance 1 ESCAPE  &mt_balance 2 BACKSPACE                             &trans            &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
