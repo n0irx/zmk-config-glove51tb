@@ -268,8 +268,8 @@ combos:
   l: [DEFAULT]
 - p: [14, 16]
   k: Sft+TAB
-- p: [46, 47]
+- p: [45, 48]
   k: Sft+Alt+LEFT CONTROL
 - p: [21, 22, 23]
-  k: Sft+Alt+LEFT CONTROL
+  k: Meh+SPACE
   l: [DEFAULT]

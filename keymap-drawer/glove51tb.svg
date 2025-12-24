@@ -357,9 +357,11 @@ path.combo {
 <text x="196" y="98" class="combo tap">Sft+TAB</text>
 </g>
 <g class="combo combopos-3">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<text x="451" y="254" class="combo tap">
-<tspan x="451" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="451" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
+<path d="M452,231 l-88,0" class="combo"/>
+<path d="M452,231 l88,0" class="combo"/>
+<rect rx="6" ry="6" x="438" y="218" width="28" height="26" class="combo"/>
+<text x="452" y="231" class="combo tap">
+<tspan x="452" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="452" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
 </text>
 </g>
 <g class="combo combopos-4">
@@ -367,7 +369,7 @@ path.combo {
 <path d="M700,93 l37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="80" width="28" height="26" class="combo"/>
 <text x="700" y="93" class="combo tap">
-<tspan x="700" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="700" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
+<tspan x="700" dy="-0.6em">Meh+</tspan><tspan x="700" dy="1.2em">SPACE</tspan>
 </text>
 </g>
 </g>
@@ -592,9 +594,11 @@ path.combo {
 <text x="196" y="98" class="combo tap">Sft+TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<text x="451" y="254" class="combo tap">
-<tspan x="451" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="451" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
+<path d="M452,231 l-88,0" class="combo"/>
+<path d="M452,231 l88,0" class="combo"/>
+<rect rx="6" ry="6" x="438" y="218" width="28" height="26" class="combo"/>
+<text x="452" y="231" class="combo tap">
+<tspan x="452" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="452" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
 </text>
 </g>
 </g>
@@ -842,9 +846,11 @@ path.combo {
 <text x="196" y="98" class="combo tap">Sft+TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<text x="451" y="254" class="combo tap">
-<tspan x="451" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="451" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
+<path d="M452,231 l-88,0" class="combo"/>
+<path d="M452,231 l88,0" class="combo"/>
+<rect rx="6" ry="6" x="438" y="218" width="28" height="26" class="combo"/>
+<text x="452" y="231" class="combo tap">
+<tspan x="452" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="452" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
 </text>
 </g>
 </g>
@@ -1074,9 +1080,11 @@ path.combo {
 <text x="196" y="98" class="combo tap">Sft+TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<text x="451" y="254" class="combo tap">
-<tspan x="451" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="451" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
+<path d="M452,231 l-88,0" class="combo"/>
+<path d="M452,231 l88,0" class="combo"/>
+<rect rx="6" ry="6" x="438" y="218" width="28" height="26" class="combo"/>
+<text x="452" y="231" class="combo tap">
+<tspan x="452" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="452" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
 </text>
 </g>
 </g>
@@ -1317,9 +1325,11 @@ path.combo {
 <text x="196" y="98" class="combo tap">Sft+TAB</text>
 </g>
 <g class="combo combopos-2">
-<rect rx="6" ry="6" x="437" y="241" width="28" height="26" class="combo"/>
-<text x="451" y="254" class="combo tap">
-<tspan x="451" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="451" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
+<path d="M452,231 l-88,0" class="combo"/>
+<path d="M452,231 l88,0" class="combo"/>
+<rect rx="6" ry="6" x="438" y="218" width="28" height="26" class="combo"/>
+<text x="452" y="231" class="combo tap">
+<tspan x="452" dy="-0.6em" style="font-size: 64%">Sft+Alt+LE…</tspan><tspan x="452" dy="1.2em" style="font-size: 64%">CONTROL</tspan>
 </text>
 </g>
 </g>
