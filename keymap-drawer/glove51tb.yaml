@@ -45,9 +45,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&powercmd'
+  - {t: ▽, type: trans}
   - LEFT SHIFT
-  - {t: SPACE, h: Ctl+Sft+LEFT ALT}
+  - '&SuperCMD'
   - {t: ESCAPE, h: FUN}
   - {t: BACKSPACE, h: SYM}
   - {t: ▽, type: trans}
@@ -263,12 +263,12 @@ layers:
 combos:
 - p: [35, 36]
   k: MOUSE
-- p: [35, 37, 36]
+- p: [36, 37, 35]
   k: Meh+TAB
   l: [DEFAULT]
 - p: [14, 16]
   k: Sft+TAB
-- p: [45, 48]
+- p: [46, 47]
   k: Sft+Alt+LEFT CONTROL
 - p: [21, 22, 23]
   k: Sft+Alt+LEFT CONTROL
