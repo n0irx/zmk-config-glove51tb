@@ -160,7 +160,7 @@
             bindings = <
 &trans                    &kp Q                       &kp W   &kp E   &kp R   &kp T                                                          &kp Y                    &kp U  &kp I      &kp O    &kp P             &trans
 &ht_balance LEFT_ALT TAB  &kp A                       &kp S   &kp D   &kp F   &kp G      &trans                        &trans                &kp H                    &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &trans
-&trans                    &ht_balance LEFT_CONTROL Z  &kp X   &kp C   &kp V   &kp B      &trans                        &trans                &kp N                    &kp M  &kp COMMA  &kp DOT  &kp ENTER         &trans
+&mo 4                     &ht_balance LEFT_CONTROL Z  &kp X   &kp C   &kp V   &kp B      &trans                        &trans                &kp N                    &kp M  &kp COMMA  &kp DOT  &kp ENTER         &trans
 &trans                    &trans                      &trans  &trans  &trans  &SuperCMD  &ht_balance LEFT_SHIFT SPACE  &mt_balance 2 ESCAPE  &mt_balance 1 BACKSPACE                             &trans            &trans
             >;
 
@@ -192,10 +192,10 @@
         sys_layer {
             label = "SCROLL";
             bindings = <
-&trans  &LockScreen  &trans  &trans  &trans       &UnnewTab                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans  &trans       &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans  &StylePaste  &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans  &trans       &trans     &trans  &trans  &trans                          &trans  &trans
+&trans  &LockScreen  &trans  &trans  &trans       &UnnewTab                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &trans       &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &StylePaste  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans       &trans  &trans  &mkp MCLK    &mkp LCLK  &mkp RCLK  &trans  &trans                          &trans  &trans
             >;
         };
 
