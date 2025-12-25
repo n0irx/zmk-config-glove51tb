@@ -2,7 +2,7 @@ layout: {zmk_keyboard: glove51tb}
 layers:
   DEFAULT:
   - {t: ▽, type: trans}
-  - Q
+  - {t: LEFT SHIFT, h: Q}
   - W
   - E
   - R
