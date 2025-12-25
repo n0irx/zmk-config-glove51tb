@@ -77,9 +77,9 @@
             tap-ms = <20>;
         };
 
-        ht: ht {
+        htc: htc {
             compatible = "zmk,behavior-hold-tap";
-            label = "HT";
+            label = "HTC";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -88,9 +88,9 @@
             hold-trigger-key-positions = <1 2 3 4 5 13 14 15 16 17 18 27 28 29 30 31 32 43 41 42 6 7 8 9 10 20 21 22 23 24 34 35 36 37 38 49 0 12 26 40 44 45 46 47 48 19 33 11 25 39 50>;
         };
 
-        lt: lt {
+        ltc: ltc {
             compatible = "zmk,behavior-hold-tap";
-            label = "LT";
+            label = "LTC";
             bindings = <&mo>, <&kp>;
 
             #binding-cells = <2>;
@@ -144,10 +144,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&trans            &ht LEFT_SHIFT Q    &kp W   &kp E   &kp R      &kp T                                                         &kp Y            &kp U  &kp I      &kp O    &kp P                                          &trans
-&ht LEFT_ALT TAB  &kp A               &kp S   &kp D   &kp F      &kp G           &trans                          &trans        &kp H            &kp J  &kp K      &kp L    &ht LS(LA(LG(LC(LEFT_CONTROL)))) SINGLE_QUOTE  &trans
-&mo 3             &ht LEFT_CONTROL Z  &kp X   &kp C   &kp V      &kp B           &trans                          &trans        &kp N            &kp M  &kp COMMA  &kp DOT  &kp ENTER                                      &trans
-&trans            &trans              &trans  &trans  &SuperCMD  &kp LEFT_SHIFT  &ht LS(LA(LEFT_CONTROL)) SPACE  &lt 2 ESCAPE  &lt 1 BACKSPACE                             &trans                                         &trans
+&trans             &htc LEFT_SHIFT Q    &kp W   &kp E   &kp R      &kp T                                                           &kp Y             &kp U  &kp I      &kp O    &kp P                                           &trans
+&htc LEFT_ALT TAB  &kp A                &kp S   &kp D   &kp F      &kp G           &trans                           &trans         &kp H             &kp J  &kp K      &kp L    &htc LS(LA(LG(LC(LEFT_CONTROL)))) SINGLE_QUOTE  &trans
+&mo 3              &htc LEFT_CONTROL Z  &kp X   &kp C   &kp V      &kp B           &trans                           &trans         &kp N             &kp M  &kp COMMA  &kp DOT  &kp ENTER                                       &trans
+&trans             &trans               &trans  &trans  &SuperCMD  &kp LEFT_SHIFT  &htc LS(LA(LEFT_CONTROL)) SPACE  &ltc 2 ESCAPE  &ltc 1 BACKSPACE                             &trans                                          &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
