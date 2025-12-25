@@ -25,7 +25,7 @@ layers:
   - J
   - K
   - L
-  - ''''
+  - {t: '''', h: Hyper+LEFT CONTROL}
   - {t: ▽, type: trans}
   - SCROLL
   - {t: Z, h: LEFT CONTROL}
@@ -161,7 +161,7 @@ layers:
   - '&LockScreen'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&ScreenShot'
   - '&UnnewTab'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,10 +177,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PLAY PAUSE
+  - VOLUME DOWN
+  - VOLUME UP
+  - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -192,8 +192,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PREVIOUS
+  - NEXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
