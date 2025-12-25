@@ -129,6 +129,13 @@
             bindings = <&kp LG(LS(V))>;
             label = "STYLEPASTE";
         };
+
+        ScreenShot: ScreenShot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(LS(NUMBER_4))>;
+            label = "SCREENSHOT";
+        };
     };
 
     keymap {
@@ -137,10 +144,10 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&trans            &ht LEFT_SHIFT Q    &kp W   &kp E   &kp R      &kp T                                                         &kp Y            &kp U  &kp I      &kp O    &kp P             &trans
-&ht LEFT_ALT TAB  &kp A               &kp S   &kp D   &kp F      &kp G           &trans                          &trans        &kp H            &kp J  &kp K      &kp L    &kp SINGLE_QUOTE  &trans
-&mo 3             &ht LEFT_CONTROL Z  &kp X   &kp C   &kp V      &kp B           &trans                          &trans        &kp N            &kp M  &kp COMMA  &kp DOT  &kp ENTER         &trans
-&trans            &trans              &trans  &trans  &SuperCMD  &kp LEFT_SHIFT  &ht LS(LA(LEFT_CONTROL)) SPACE  &lt 2 ESCAPE  &lt 1 BACKSPACE                             &trans            &trans
+&trans            &ht LEFT_SHIFT Q    &kp W   &kp E   &kp R      &kp T                                                         &kp Y            &kp U  &kp I      &kp O    &kp P                                          &trans
+&ht LEFT_ALT TAB  &kp A               &kp S   &kp D   &kp F      &kp G           &trans                          &trans        &kp H            &kp J  &kp K      &kp L    &ht LS(LA(LG(LC(LEFT_CONTROL)))) SINGLE_QUOTE  &trans
+&mo 3             &ht LEFT_CONTROL Z  &kp X   &kp C   &kp V      &kp B           &trans                          &trans        &kp N            &kp M  &kp COMMA  &kp DOT  &kp ENTER                                      &trans
+&trans            &trans              &trans  &trans  &SuperCMD  &kp LEFT_SHIFT  &ht LS(LA(LEFT_CONTROL)) SPACE  &lt 2 ESCAPE  &lt 1 BACKSPACE                             &trans                                         &trans
             >;
 
             sensor-bindings = <&mouse_wheel_scroll SCRL_UP SCRL_DOWN>;
@@ -171,10 +178,10 @@
         sys_layer {
             label = "SCROLL";
             bindings = <
-&trans  &LockScreen  &trans  &trans  &trans       &UnnewTab                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans  &trans       &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans  &StylePaste  &trans     &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans       &trans  &trans  &mkp RCLK    &mkp LCLK  &mkp MCLK  &trans  &trans                          &trans  &trans
+&trans  &LockScreen  &trans  &trans  &ScreenShot  &UnnewTab                     &trans            &trans             &trans           &trans      &trans  &trans
+&trans  &trans       &trans  &trans  &trans       &trans     &trans     &trans  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans  &trans
+&trans  &trans       &trans  &trans  &StylePaste  &trans     &trans     &trans  &trans            &kp K_PREVIOUS     &kp K_NEXT       &trans      &trans  &trans
+&trans  &trans       &trans  &trans  &mkp RCLK    &mkp LCLK  &mkp MCLK  &trans  &trans                                                            &trans  &trans
             >;
         };
     };
