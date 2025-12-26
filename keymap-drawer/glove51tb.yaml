@@ -48,7 +48,7 @@ layers:
   - '&SuperCMD'
   - LEFT SHIFT
   - {t: SPACE, h: Sft+Alt+LEFT CONTROL}
-  - {t: ESCAPE, h: FUN}
+  - {t: ENTER, h: FUN}
   - {t: BACKSPACE, h: SYM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
